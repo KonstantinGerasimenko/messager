@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+		/>
+
+		<link rel="stylesheet" href="src/assets/styles/main.css" />
+		<title>messager</title>
+	</head>
+	<body id="messageBody">
+		<header>
+			<a href="mainMenu.html">
+				<span class="material-symbols-outlined" id="arrow"> arrow_back </span>
+			</a>
+			<div class="info">
+				<div class="avatar"></div>
+				<div class="text">
+					<h1>Name Username</h1>
+					<h2>10 seconds ago</h2>
+				</div>
+			</div>
+			<button id="menuBtn">
+				<span class="material-symbols-outlined"> menu </span>
+			</button>
+		</header>
+		<main>
+			<section>
+				<h2 class="time">2 / 17 / 2023</h2>
+			</section>
+			<div class="sideBar">
+				<div class="icons">
+					<span class="material-symbols-outlined"> call </span>
+					<span class="material-symbols-outlined"> search </span>
+				</div>
+				<div class="info">
+					<div class="avatar"></div>
+					<div class="text">
+						<h1>Name Username</h1>
+						<h2>10 seconds ago</h2>
+						<h2>+1 11 1234567</h2>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<input placeholder="your message..." />
+			<button id="send">send</button>
+		</footer>
+
+		<script type="module" src="src/message.ts"></script>
+		<script type="module" src="src/sideBar.ts"></script>
+	</body>
+</html>

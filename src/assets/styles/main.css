@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0em;
+}
+
+h2 {
+  color: rgb(144, 144, 144);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.avatar {
+  background-color: white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.show {
+  width: 15vw !important;
+  padding: 2% !important;
+}
+
+.reduce {
+  width: 85vw !important;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+body {
+  background-color: rgb(19, 19, 37);
+  overflow-x: hidden;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.info .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.info .text h1 {
+  text-transform: capitalize;
+}
+.info .text h2 {
+  margin-top: -15px;
+}
+
+*::-webkit-scrollbar {
+  height: 12px;
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgb(7, 7, 14);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.205);
+  border-radius: 5px;
+}
+
+#messageBody header {
+  height: 100px;
+  background-color: rgb(29, 28, 54);
+  display: flex;
+  align-items: center;
+  padding: 30px 60px;
+  position: sticky;
+  top: 0;
+  width: 100vw;
+}
+#messageBody header #arrow {
+  margin-right: 100px;
+}
+#messageBody header #menuBtn {
+  margin-left: auto;
+  background: none;
+  border: none;
+}
+#messageBody main {
+  width: 100vw;
+  min-height: calc(100vh - 100px - 100px);
+  display: flex;
+  flex-wrap: nowrap;
+}
+#messageBody main section {
+  padding: 30px 60px;
+  display: grid;
+  grid-gap: 60px;
+  align-items: end;
+  height: 100%;
+  width: 100%;
+}
+#messageBody main section .time {
+  text-align: center;
+}
+#messageBody main section .message {
+  justify-self: end;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 10px;
+  padding: 0 15px;
+  flex-wrap: nowrap;
+  background-color: rgb(29, 28, 54);
+  height: 60px;
+  border-radius: 10px;
+}
+#messageBody main .sideBar {
+  background-color: rgb(29, 29, 57);
+  height: calc(100vh - 100px - 100px);
+  width: 0;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  display: grid;
+}
+#messageBody main .sideBar .icons {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  height: 48px;
+}
+#messageBody main .sideBar .info {
+  flex-direction: column;
+  text-align: center;
+}
+#messageBody main .sideBar .info .avatar {
+  height: 100px;
+  width: 100px;
+}
+#messageBody main .sideBar .info .text {
+  gap: 15px;
+}
+#messageBody footer {
+  background-color: rgb(29, 28, 54);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  width: 100vw;
+  position: sticky;
+  bottom: 0;
+}
+#messageBody footer input {
+  width: 60%;
+  height: 50%;
+  background-color: rgb(19, 19, 37);
+  border: none;
+  padding: 0 25px;
+  border-radius: 10px;
+}
+#messageBody footer button {
+  background-color: rgb(19, 19, 37);
+  border: none;
+  height: 50%;
+  padding: 0 50px;
+  border-radius: 10px;
+  font-size: 24px;
+}
+
+#menuBody .card {
+  height: 20vh;
+  width: 100vw;
+  background-color: rgb(37, 37, 73);
+  padding: 0 30px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#menuBody .card section {
+  display: flex;
+  flex-direction: column;
+}
+#menuBody .card section .text {
+  height: 100%;
+  flex-direction: row;
+  gap: 30px;
+  align-items: baseline;
+}
+#menuBody .card section .text h2 {
+  margin: 0;
+}/*# sourceMappingURL=main.css.map */
